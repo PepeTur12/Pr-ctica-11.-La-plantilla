@@ -1,0 +1,45 @@
+body{
+    background: radial-gradient(rgb(255, 0, 0), orange);
+    background-size: cover;
+}
+
+p.header{
+    text-align: center;
+    font-size: 50px;
+    background-color: #f10808;
+    opacity: 0.7;
+}
+
+img.izquierda{
+    float: left;
+    height: 105px;
+    margin-left: 10%;
+}
+
+img.derecha{
+    float: right;
+    height: 105px;
+    margin-right: 10%;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+
+p.jugadores{
+    text-align: center;
+}
+
+img{
+    height: 180px;
+    margin: 0 50px;
+}
+
+p.entrenadores{
+text-align: center;
+}
+
+img:hover{
+    transform: scale(110%);
+}
